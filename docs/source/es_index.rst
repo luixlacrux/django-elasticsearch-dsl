@@ -14,7 +14,7 @@ and also add the `registry.register_document` decorator.
 .. code-block:: python
 
     # documents.py
-    from elasticsearch_dsl import Index
+    from elasticsearch7_dsl import Index
     from django_elasticsearch_dsl import Document
     from .models import Car, Manufacturer
 

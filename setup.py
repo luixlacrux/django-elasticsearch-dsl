@@ -36,13 +36,13 @@ setup(
     description="""Wrapper around elasticsearch-dsl-py for django models""",
     long_description=readme + '\n\n' + history,
     author='Sabricot',
-    url='https://github.com/sabricot/django-elasticsearch-dsl',
+    url='https://github.com/luixlacrux/django-elasticsearch-dsl/',
     packages=[
         'django_elasticsearch_dsl',
     ],
     include_package_data=True,
     install_requires=[
-        'elasticsearch-dsl>=7.2.0,<8.0.0',
+        'elasticsearch7-dsl>=7.2.0,<8.0.0',
         'six',
     ],
     license="Apache Software License 2.0",
